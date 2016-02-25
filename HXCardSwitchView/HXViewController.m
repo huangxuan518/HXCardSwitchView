@@ -193,7 +193,6 @@
         selectImageView.image = [UIImage imageNamed:@"fu_card_selected_border"];
         selectImageView.hidden = (index == _currentIndex) ? NO : YES;
         [_bottomView addSubview:selectImageView];
-        NSLog(@"师傅的说法的=== %ld %ld",(long)index,(long)_currentIndex);
         
         UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 49, 14)];
         titleLabel.center = CGPointMake(imageView.center.x, imageView.center.y + imageView.frame.size.height/2 + 15);
