@@ -12,7 +12,6 @@
 		30D9E5B51C7E9F1400D7BB7C /* HXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9E5B21C7E9F1400D7BB7C /* HXViewController.m */; };
 		30D9E5B61C7E9F1400D7BB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D9E5B31C7E9F1400D7BB7C /* Assets.xcassets */; };
 		30D9E5BA1C7E9F4500D7BB7C /* HXCardSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9E5B91C7E9F4500D7BB7C /* HXCardSwitchView.m */; };
-		30D9E5BC1C7EA09600D7BB7C /* xiaoguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 30D9E5BB1C7EA09600D7BB7C /* xiaoguo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		30D9E5B31C7E9F1400D7BB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D9E5B81C7E9F4500D7BB7C /* HXCardSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCardSwitchView.h; sourceTree = "<group>"; };
 		30D9E5B91C7E9F4500D7BB7C /* HXCardSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCardSwitchView.m; sourceTree = "<group>"; };
-		30D9E5BB1C7EA09600D7BB7C /* xiaoguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiaoguo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +57,6 @@
 		30D9E5971C7E9EC300D7BB7C /* HXCardSwitchView */ = {
 			isa = PBXGroup;
 			children = (
-				30D9E5BB1C7EA09600D7BB7C /* xiaoguo.gif */,
 				30D9E5B71C7E9F3900D7BB7C /* 卡片切换 */,
 				30D9E5AF1C7E9F1400D7BB7C /* AppDelegate.h */,
 				30D9E5B01C7E9F1400D7BB7C /* AppDelegate.m */,
@@ -147,7 +144,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				30D9E5B61C7E9F1400D7BB7C /* Assets.xcassets in Resources */,
-				30D9E5BC1C7EA09600D7BB7C /* xiaoguo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +289,7 @@
 				30D9E5AE1C7E9EC300D7BB7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
