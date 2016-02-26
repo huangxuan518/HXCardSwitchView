@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30292ECF1C7FF65800C7C0B9 /* xiaoguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 30292ECE1C7FF65800C7C0B9 /* xiaoguo.gif */; };
 		30D9E59A1C7E9EC300D7BB7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9E5991C7E9EC300D7BB7C /* main.m */; };
 		30D9E5B41C7E9F1400D7BB7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9E5B01C7E9F1400D7BB7C /* AppDelegate.m */; };
 		30D9E5B51C7E9F1400D7BB7C /* HXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9E5B21C7E9F1400D7BB7C /* HXViewController.m */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30292ECE1C7FF65800C7C0B9 /* xiaoguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiaoguo.gif; sourceTree = "<group>"; };
 		30D9E5951C7E9EC300D7BB7C /* HXCardSwitchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXCardSwitchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D9E5991C7E9EC300D7BB7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30D9E5A91C7E9EC300D7BB7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		30D9E5971C7E9EC300D7BB7C /* HXCardSwitchView */ = {
 			isa = PBXGroup;
 			children = (
+				30292ECE1C7FF65800C7C0B9 /* xiaoguo.gif */,
 				30D9E5B71C7E9F3900D7BB7C /* 卡片切换 */,
 				30D9E5AF1C7E9F1400D7BB7C /* AppDelegate.h */,
 				30D9E5B01C7E9F1400D7BB7C /* AppDelegate.m */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30D9E5B61C7E9F1400D7BB7C /* Assets.xcassets in Resources */,
+				30292ECF1C7FF65800C7C0B9 /* xiaoguo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
