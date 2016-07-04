@@ -8,6 +8,7 @@
 
 #import "HXViewController.h"
 #import "HXCardSwitchView.h"
+#import "SXLineView.h"
 
 @interface HXViewController ()
 
@@ -24,6 +25,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIView *view = [[UIView alloc] init];
+    [self.view addSubview:view];
+    
+    
+    
+//    SXLineView *lineView = [[SXLineView alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, 300)];
+//    [self.view addSubview:lineView];
+//    
+//    
+//    return;
     self.title = @"我的福气";
     self.view.backgroundColor = HXUIColorWithHex(0x1f0c30);
     

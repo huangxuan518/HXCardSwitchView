@@ -13,6 +13,10 @@
 		30D9E5B51C7E9F1400D7BB7C /* HXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9E5B21C7E9F1400D7BB7C /* HXViewController.m */; };
 		30D9E5B61C7E9F1400D7BB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D9E5B31C7E9F1400D7BB7C /* Assets.xcassets */; };
 		30D9E5BA1C7E9F4500D7BB7C /* HXCardSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9E5B91C7E9F4500D7BB7C /* HXCardSwitchView.m */; };
+		9C82B89F1D2A3A2C00A254D7 /* SXLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C82B89E1D2A3A2C00A254D7 /* SXLineView.m */; };
+		9C82B8A21D2A3A3300A254D7 /* SXLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C82B8A11D2A3A3300A254D7 /* SXLineLayout.m */; };
+		9C82B8A61D2A3A4A00A254D7 /* SXImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C82B8A41D2A3A4A00A254D7 /* SXImageCell.m */; };
+		9C82B8A71D2A3A4A00A254D7 /* SXImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C82B8A51D2A3A4A00A254D7 /* SXImageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,13 @@
 		30D9E5B31C7E9F1400D7BB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D9E5B81C7E9F4500D7BB7C /* HXCardSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCardSwitchView.h; sourceTree = "<group>"; };
 		30D9E5B91C7E9F4500D7BB7C /* HXCardSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCardSwitchView.m; sourceTree = "<group>"; };
+		9C82B89D1D2A3A2C00A254D7 /* SXLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXLineView.h; sourceTree = "<group>"; };
+		9C82B89E1D2A3A2C00A254D7 /* SXLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXLineView.m; sourceTree = "<group>"; };
+		9C82B8A01D2A3A3300A254D7 /* SXLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXLineLayout.h; sourceTree = "<group>"; };
+		9C82B8A11D2A3A3300A254D7 /* SXLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXLineLayout.m; sourceTree = "<group>"; };
+		9C82B8A31D2A3A4A00A254D7 /* SXImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXImageCell.h; sourceTree = "<group>"; };
+		9C82B8A41D2A3A4A00A254D7 /* SXImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXImageCell.m; sourceTree = "<group>"; };
+		9C82B8A51D2A3A4A00A254D7 /* SXImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SXImageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +74,13 @@
 				30D9E5B71C7E9F3900D7BB7C /* 卡片切换 */,
 				30D9E5AF1C7E9F1400D7BB7C /* AppDelegate.h */,
 				30D9E5B01C7E9F1400D7BB7C /* AppDelegate.m */,
+				9C82B89D1D2A3A2C00A254D7 /* SXLineView.h */,
+				9C82B89E1D2A3A2C00A254D7 /* SXLineView.m */,
+				9C82B8A01D2A3A3300A254D7 /* SXLineLayout.h */,
+				9C82B8A11D2A3A3300A254D7 /* SXLineLayout.m */,
+				9C82B8A31D2A3A4A00A254D7 /* SXImageCell.h */,
+				9C82B8A41D2A3A4A00A254D7 /* SXImageCell.m */,
+				9C82B8A51D2A3A4A00A254D7 /* SXImageCell.xib */,
 				30D9E5B11C7E9F1400D7BB7C /* HXViewController.h */,
 				30D9E5B21C7E9F1400D7BB7C /* HXViewController.m */,
 				30D9E5B31C7E9F1400D7BB7C /* Assets.xcassets */,
@@ -147,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30D9E5B61C7E9F1400D7BB7C /* Assets.xcassets in Resources */,
+				9C82B8A71D2A3A4A00A254D7 /* SXImageCell.xib in Resources */,
 				30292ECF1C7FF65800C7C0B9 /* xiaoguo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,7 +179,10 @@
 			files = (
 				30D9E5BA1C7E9F4500D7BB7C /* HXCardSwitchView.m in Sources */,
 				30D9E5B51C7E9F1400D7BB7C /* HXViewController.m in Sources */,
+				9C82B8A21D2A3A3300A254D7 /* SXLineLayout.m in Sources */,
+				9C82B89F1D2A3A2C00A254D7 /* SXLineView.m in Sources */,
 				30D9E5B41C7E9F1400D7BB7C /* AppDelegate.m in Sources */,
+				9C82B8A61D2A3A4A00A254D7 /* SXImageCell.m in Sources */,
 				30D9E59A1C7E9EC300D7BB7C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
