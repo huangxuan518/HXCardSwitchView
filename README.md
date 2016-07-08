@@ -1,4 +1,4 @@
-# HXCardSwitchView 如果对你有一点点帮助,请给一颗★,你的支持是对我的最大支持！
+# HXCardSwitchView 如果对你有一点点帮助,请给一颗★,你的支持是对我的最大鼓励！
 HXCardSwitchView可以快速实现卡片式切换效果
 
 # 效果展示
